@@ -1,0 +1,55 @@
+{
+  "nav.home": "Inicio",
+  "nav.work": "Proyectos",
+  "nav.about": "Sobre mí",
+  "nav.contact": "Contacto",
+
+  "hero.greeting": "Hola, soy Gerald RB",
+  "hero.title": "Ingeniero en Software, Full Stack & App Developer",
+  "hero.subtitle.1": "→ Proyectos",
+  "hero.subtitle.2": "→ Sobre mí",
+
+  "work.title": "PROYECTOS",
+  "work.subtitle.1": "Clínica",
+  "work.subtitle.2": "Desarrollo Web",
+
+  "proyect.title": "Clínica Vitalis",
+  "proyect.subtitle.1": "CATEGORÍA",
+  "proyect.subtitle.1.1": "Desarrollo Web",
+  "proyect.subtitle.1.2": "Diseño UX/UI",  
+  "proyect.subtitle.1.3": "",
+
+  "proyect.subtitle.2": "AÑO",
+  "proyect.subtitle.2.1": "2025",
+
+  "proyect.subtitle.3": "TECNOLOGÍAS",
+  "proyect.subtitle.3.1": "Pruebas",
+  "proyecto.resum": "Aplicación web para la gestión de una clínica médica, que permite administrar médicos, pacientes y citas de forma eficiente. El sistema incluye funciones completas para registrar, consultar, actualizar y eliminar información, además de control de acceso por roles. Cuenta con soporte multilenguaje (Español, Inglés, Francés y Portugués) y fue desarrollado con tecnologías web modernas y Java utilizando Spring Boot, junto con integración a Firebase y MySQL para el manejo de datos.",
+
+  "proyecto.homePageClinica": "PÁGINA PRINCIPAL",
+  "proyecto.homePageClinica1": "PAGINA DE BENEFICIOS",
+  "proyecto.homePageClinica2": "LOGIN DE LA PAGINA",
+  "proyecto.homePageClinica3": "GESTIÓN DE LA PAGINA",
+  "proyecto.homePageClinica4": "BENEFICIOS DE LA PAGINA",
+
+
+  "work.subtitle.Guarderia1": "Guardería",
+  "proyect.title.Guarderia": "Guardería",
+  "proyecto.resum.Guarderia": "DayCare es una plataforma web desarrollada para la gestión integral de guarderías, enfocada en optimizar procesos administrativos y mejorar la comunicación entre usuarios y el centro educativo. El sistema permite gestionar usuarios, roles, matrículas, citas y programas educativos dentro de un entorno seguro y organizado. Fue construido utilizando tecnologías frontend como HTML, CSS y JavaScript para una interfaz moderna y responsiva, junto con PHP en el backend y MySQL como base de datos. El objetivo principal es centralizar la información, automatizar tareas clave y brindar una experiencia eficiente tanto para administradores como para usuarios.",
+  "proyecto.homePageGuarderia": "FAQS Y RECOMENDACIONES",
+  "proyecto.homePageGuarderiaAdmin": "USER AS ADMINISTRATOR",
+
+  "work.subtitle.MPG": "MPG",
+  "proyecto.resum.MPG": "Muebles Palmares Gera (MPG) es una plataforma web diseñada para la exhibición y promoción de mobiliario moderno, enfocada en brindar una experiencia visual atractiva y elegante. El sitio presenta colecciones de muebles para sala, comedor, dormitorio y armarios, utilizando animaciones suaves, diseño minimalista y una estructura intuitiva. Fue desarrollado con HTML, CSS y JavaScript, priorizando el rendimiento, la responsividad y la optimización de imágenes. El objetivo principal es ofrecer una navegación fluida, destacar la calidad de los productos y facilitar el contacto directo con los clientes a través de integraciones como WhatsApp.",
+  "proyect.subtitle.MPG": "2026",
+  "proyecto.MPG.Store": "TIENDA",
+
+  
+  "about.title": "SOBRE MÍ",
+  "about.resum": "Estudiante de Ingeniería en Software enfocado en construir sistemas reales y escalables. Trabajo con Java (Spring Boot), PHP, MySQL y C#, desarrollando aplicaciones estructuradas con arquitectura limpia y un sólido diseño de bases de datos. Más allá del backend, me importa profundamente la UI/UX, el movimiento y el detalle — porque el software no solo debe funcionar, debe sentirse bien. Estoy constantemente construyendo, refinando y llevando mis habilidades al siguiente nivel.",
+  "about.curriculum": "↓ CURRÍCULUM",
+
+  "contact.title": "CONTACTO",
+  "contact.mail": "CORREO",
+  "contact.social": "REDES SOCIALES"
+}
