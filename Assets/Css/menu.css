@@ -177,6 +177,7 @@ body.menu-open .hamburger-btn .icon-hover {
 
 @media (min-width: 1200px) {
     .menu .item-inner h1 {
+        
         transform: scaleX(1.2);
     }
 }
@@ -191,4 +192,15 @@ body.menu-open .hamburger-btn .icon-hover {
     to {
         stroke-dashoffset: 0;
     }
+}
+
+@media (max-width: 768px) {
+  .menu .item-inner {
+    padding-left: 1.8rem;
+    padding-top: 10px;
+  }
+
+  .menu .item-inner::before {
+    left: 0;
+  }
 }
