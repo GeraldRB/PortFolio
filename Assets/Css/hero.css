@@ -1,10 +1,10 @@
-.hero{
+.hero {
   padding-top: 120px;
 }
 
 .h1-1 {
   color: var(--text);
-  
+
 
   font-family: "Host Grotesk", sans-serif;
   font-weight: 800;
@@ -70,14 +70,14 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 150px;
-  
+  padding-top: 100px;
+
 }
 
 .text-mask {
   overflow: hidden;
   display: block;
-  
+
 }
 
 /* animación base */
@@ -112,9 +112,59 @@ li {
   }
 }
 
-/* Arreglar */
-@media(max-width: 900px){
-  .hero{
-    padding-top: 100px;
+@media (max-width: 480px) {
+  .hero {
+    padding-top: 60px;
+  }
+
+  .option-section {
+    padding-top: 30px;
+  }
+
+  .h1-1 {
+    letter-spacing: 0.04em;
+  }
+
+  .h3-1 {
+    margin-top: 0.6rem;
+  }
+
+  .link-text {
+    letter-spacing: 0.12em;
+  }
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 70px;
+  }
+
+  .option-section {
+    padding-top: 40px;
+    min-height: auto;
+  }
+
+  .h1-1 {
+    letter-spacing: 0.06em;
+  }
+
+  .h3-1 {
+    letter-spacing: 0.12em;
+  }
+
+  .link-wrapper .link {
+    white-space: normal;
+    /* ✅ evita overflow */
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    padding-top: 90px;
+  }
+
+  .option-section {
+    padding-top: 60px;
   }
 }
