@@ -429,13 +429,108 @@ body.menu-open .hamburger-btn .icon-close {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+/* RESPONSIVE HEADER */
+@media (max-width: 1024px) {
   .header-content {
-    padding: 0 18px;
+    padding: 0 50px;
   }
 
-  .right-part ul {
-    gap: 12px;
+  .left-part,
+  .right-part {
+    padding-top: 80px;
+  }
+
+  .lang-toggle {
+    font-size: 30px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 80px;
+  }
+
+  .header-content {
+    padding: 0 20px;
+  }
+
+  .left-part,
+  .right-part {
+    padding-top: 35px;
+  }
+
+  .logo a {
+    padding-left: 0;
+  }
+
+  .logo-svg {
+    width: 42px;
+  }
+
+  header .header-content .right-part ul {
+    gap: 10px;
+  }
+
+  .lang-toggle {
+    font-size: 24px;
+    height: 34px;
+  }
+
+  .icon-btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  .icon-btn svg,
+  .hamburger-icon,
+  .menu2-icon,
+  .menu3-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .hamburger-btn {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-content {
+    padding: 0 14px;
+  }
+
+  .left-part,
+  .right-part {
+    padding-top: 25px;
+  }
+
+  .logo-svg {
+    width: 36px;
+  }
+
+  .lang-toggle {
+    font-size: 20px;
+    height: 30px;
+  }
+
+  header .header-content .right-part ul {
+    gap: 6px;
+  }
+
+  .icon-btn,
+  .hamburger-btn {
+    width: 34px;
+    height: 34px;
+  }
+
+  .icon-btn svg,
+  .hamburger-icon,
+  .menu2-icon,
+  .menu3-icon {
+    width: 24px;
+    height: 24px;
   }
 }
 
